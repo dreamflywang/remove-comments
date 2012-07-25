@@ -1,6 +1,6 @@
 ## Usage
 
-```javascipt
+```js
     
     rm = require('remove-comments'),
     fs = require('fs');
