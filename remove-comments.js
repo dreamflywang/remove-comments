@@ -1,3 +1,9 @@
+/*
+    Description: nodejs tools lab
+    Author     : owen
+    mail       : wyhtalent@gmail.com
+    
+*/
 function trim(str){
     return str.replace(/^[\s\n]*(.*?)[\s\n]*$/, '$1');
 }
