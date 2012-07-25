@@ -116,7 +116,7 @@ function removeCssComments(str){
 function removeHtmlComments(str){
     var javascriptReg = /<script([\s\S]*?)>([\s\S]*?)<\/script>/gi,
         cssReg = /<style([\s\S]*?)>([\s\S]*?)<\/style>/gi,
-        codeCache = {}, tempKey = "#VENUS_TEMP_PLACEHOLDER_{index}#", count = 0;
+        codeCache = {}, tempKey = "#__TEMP_PLACEHOLDER_{index}#", count = 0;
 
     function getCodeKey(){
         var key = tempKey.replace(/\{index\}/, count);
